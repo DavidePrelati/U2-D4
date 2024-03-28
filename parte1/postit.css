@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: indie;
+    background-color: #666666;
+    font-family: "Indie Flower", cursive;
+}
+
+.container {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 5rem;
+
+}
+
+.rectangle {
+    display: inline-block;
+    min-height: 150px;
+    margin-bottom: 25px;
+    padding: 50px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2,
+p {
+    text-align: center;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.beige {
+    background-color: #ebecb7;
+    rotate: -5deg;
+}
+
+.beige2 {
+    background-color: #ebecb7;
+    rotate: -5deg;
+}
+
+.beige3 {
+    background-color: #ebecb7;
+    rotate: -4deg;
+}
+
+.green {
+    background-color: #c5f5c8;
+    rotate: 4deg;
+}
+
+.green2 {
+    background-color: #c5f5c8;
+    rotate: 8deg;
+}
+
+.green3 {
+    background-color: #c5f5c8;
+    rotate: 3deg;
+}
+
+.blue {
+    background-color: #b4b3d1;
+    rotate: -4deg;
+}
+
+.blue2 {
+    background-color: #b4b3d1;
+    rotate: -8deg;
+}
+
+.rectangle:hover{
+    transform: scale(1.2);
+    rotate: 0deg;
+}
